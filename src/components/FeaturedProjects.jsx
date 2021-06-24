@@ -6,7 +6,7 @@ function FeaturedProjects(){
         <div className="featured-projects"> 
             <h3>Featured Projects</h3>
             <div className="project">
-                <img src="" alt="project-image" />
+                <img src="" alt="" />
                 <h4>project name</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, eos?</p>
                 <div className="tags">
