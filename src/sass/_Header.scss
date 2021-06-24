@@ -1,0 +1,59 @@
+.header{
+    // margin-bottom: 4rem;
+    h3{
+        font-size: 2rem;
+        color: var(--gray3);
+        margin-top: 9rem;
+    }
+    h1{
+        font-size: 3rem;
+        color: var(--red);
+        margin-top: 0.3rem;
+    }
+    p{
+        font-size: 1.2rem;
+        margin-top: 0.3rem;
+        color: var(--gray3);
+    }
+    .btn-div{
+        
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;        
+        height: 2.5rem;
+        width: 100%;
+
+        button{
+            font-size: 1rem;
+            border: 3px solid var(--purple);
+            padding: 0.5rem;
+            background-color: var(--gray0);            
+            font-family: var(--font-family);
+            cursor: pointer;
+
+            &:first-child{
+                margin-right: 0.2rem;
+                color: var(--purple);
+
+                &:hover{
+                    background-color: var(--purple);
+                    color: var(--gray0);
+                }
+            }
+
+            &:last-child{
+                margin-left: 0.2rem;
+                border: 3px solid var(--purple);                
+                background-color: var(--purple); 
+                color: var(--gray0);
+
+                &:hover{
+                    color: var(--purple);
+                    background-color: var(--gray0);
+                }
+            }
+        }
+        
+    }
+}
