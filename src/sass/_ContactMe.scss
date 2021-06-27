@@ -1,0 +1,35 @@
+.contact-me {
+  margin-top: 10rem;
+
+  h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    border: 4px dashed var(--gray2);
+    padding: 2.5rem 0rem;
+    color: var(--gray6);
+    margin-bottom: 5rem;
+  }
+  p {
+    font-size: 1.2rem;
+    margin-top: 0.3rem;
+    color: var(--gray3);
+  }
+  .grid {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    row-gap: 5rem;
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        height: 5rem;
+        width: 5rem;
+      }
+    }
+  }
+}

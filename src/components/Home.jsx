@@ -1,12 +1,14 @@
 import React from "react";
-import FeaturedProjects from "./FeaturedProjects";
 import Header from "./Header";
+import FeaturedProjects from "./FeaturedProjects";
+import ContactMe from "./ContactMe";
 
 function Home({ allProjects }) {
   return (
     <section className="home">
       <Header />
       <FeaturedProjects allProjects={allProjects} />
+      <ContactMe />
     </section>
   );
 }
