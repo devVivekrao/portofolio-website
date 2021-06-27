@@ -33,24 +33,24 @@
             cursor: pointer;
 
             &:first-child{
-                margin-right: 0.2rem;
-                color: var(--purple);
-
-                &:hover{
-                    background-color: var(--purple);
-                    color: var(--gray0);
+                margin-right: 0.2rem;                
+                background-color: var(--purple); 
+                color: var(--gray0);
+                &:hover{                
+                    color: var(--purple);
+                    background-color: var(--gray0);
                 }
             }
 
             &:last-child{
                 margin-left: 0.2rem;
                 border: 3px solid var(--purple);                
-                background-color: var(--purple); 
-                color: var(--gray0);
+                background-color: var(--gray0); 
+                color: var(--purple);
 
                 &:hover{
-                    color: var(--purple);
-                    background-color: var(--gray0);
+                    background-color: var(--purple);
+                    color: var(--gray0);
                 }
             }
         }

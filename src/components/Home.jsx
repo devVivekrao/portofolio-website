@@ -1,17 +1,14 @@
-import React from 'react';
-import FeaturedProjects from './FeaturedProjects';
-import Header from './Header';
+import React from "react";
+import FeaturedProjects from "./FeaturedProjects";
+import Header from "./Header";
 
-function Home(){
-
-    return(
-        <div className="home">         
-            <Header />
-            <FeaturedProjects />
-            
-        </div>
-    );
-
+function Home({ allProjects }) {
+  return (
+    <section className="home">
+      <Header />
+      <FeaturedProjects allProjects={allProjects} />
+    </section>
+  );
 }
- 
+
 export default Home;

@@ -1,24 +1,19 @@
-import React from 'react';
+import React from "react";
+import Project from "./Project";
 
-function FeaturedProjects(){
+function FeaturedProjects({ allProjects }) {
+  return (
+    <div className="featured-projects">
+      <h3>Featured Projects</h3>
+      {
+        allProjects.map( (project) => (      
 
-    return(
-        <div className="featured-projects"> 
-            <h3>Featured Projects</h3>
-            <div className="project">
-                <img src="" alt="" />
-                <h4>project name</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, eos?</p>
-                <div className="tags">
-                    <span>#react</span>
-                    <span>#javascript</span>
-                </div>
-            </div>
-            <div className="project"></div>
-            <div className="project"></div>
-        </div>
-    );
-
+            project.featured ? <Project key={project.id} project={project} /> : ''                      
+            
+        ))
+      }
+    </div>
+  );
 }
- 
+
 export default FeaturedProjects;

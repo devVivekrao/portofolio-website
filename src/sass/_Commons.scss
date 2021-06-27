@@ -1,12 +1,10 @@
-
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html{
+html {
   font-size: var(--font-size);
 }
 
@@ -17,6 +15,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.App{
+.App {
   padding: 1.5rem;
+}
+
+.react {
+  background-color: var(--gray6);
+  color: #00d8ff;
+}
+
+.javascript {
+  background-color: #f0db4f;
+  color: var(--gray6);
 }
