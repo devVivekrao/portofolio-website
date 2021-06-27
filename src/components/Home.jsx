@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import FeaturedProjects from "./FeaturedProjects";
 import ContactMe from "./ContactMe";
+import Footer from "./Footer";
 
 function Home({ allProjects }) {
   return (
@@ -9,6 +10,7 @@ function Home({ allProjects }) {
       <Header />
       <FeaturedProjects allProjects={allProjects} />
       <ContactMe />
+      <Footer />
     </section>
   );
 }
