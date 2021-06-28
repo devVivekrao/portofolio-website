@@ -28,14 +28,14 @@ function ContactMe() {
           <img src={LinkedIn} alt="linkedin" className="linkedin" />
         </a>
         <a
-          href="https://github.com/devVivekrao"
+          href="https://www.instagram.com/_vivo_89/"
           target="_blank"
           rel="noreferrer"
         >
           <img src={Instagram} alt="instagram" className="instagram" />
         </a>
         <a
-          href="https://github.com/devVivekrao"
+          href="https://twitter.com/devVivekrao"
           target="_blank"
           rel="noreferrer"
         >
