@@ -55,12 +55,12 @@
   }
   .see-all-btn {
     display: flex;
-    align-self: center;
-    // justify-self: center;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 100%;
     text-decoration: none;
     border: 3px solid var(--purple);
-    padding: 0.5rem 7rem;
     background-color: var(--red);
     cursor: pointer;
     color: var(--gray0);
