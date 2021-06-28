@@ -1,5 +1,5 @@
 .featured-projects {
-  margin-top: 12rem;
+  margin-top: 10rem;
   padding: 1.5rem;
   h3 {
     text-align: center;
@@ -52,5 +52,17 @@
         }
       }
     }
+  }
+  .see-all-btn {
+    display: flex;
+    align-self: center;
+    // justify-self: center;
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid var(--purple);
+    padding: 0.5rem 7rem;
+    background-color: var(--red);
+    cursor: pointer;
+    color: var(--gray0);
   }
 }

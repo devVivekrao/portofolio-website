@@ -5,11 +5,11 @@ function Projects({ allProjects }) {
   return (
     <div className="projects">
       <h3>Projects</h3>
-      {
-        allProjects.map( project => (
+      <div className="grid">
+        {allProjects.map((project) => (
           <Project key={project.id} project={project} />
-        ))
-      }
+        ))}
+      </div>
     </div>
   );
 }
