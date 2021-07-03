@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -10,8 +11,10 @@ function Header() {
         interactive experiences and functional interfaces using MERN stack.
       </p>
       <div className="btn-div">
-        <button>Download resume</button>
-        <button>View projects</button>
+        <button className="button">Download resume</button>
+        <Link to="/projects" className="button">
+          View projects
+        </Link>
       </div>
     </div>
   );
