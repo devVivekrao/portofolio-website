@@ -55,6 +55,7 @@
         }
       }
       .hover {
+        transition: 0.5s all ease;
         position: absolute;
         top: 0;
         left: 0;
@@ -83,7 +84,8 @@
       }
       &:hover {
         .hover {
-          opacity: 0.8;
+          transition: 0.5s all ease;
+          opacity: 0.9;
           pointer-events: all;
         }
       }

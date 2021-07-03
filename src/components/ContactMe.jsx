@@ -16,28 +16,28 @@ function ContactMe() {
         <a
           href="https://github.com/devVivekrao"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <img src={Github} alt="github" className="github" />
         </a>
         <a
           href="https://github.com/devVivekrao"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <img src={LinkedIn} alt="linkedin" className="linkedin" />
         </a>
         <a
           href="https://www.instagram.com/_vivo_89/"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <img src={Instagram} alt="instagram" className="instagram" />
         </a>
         <a
           href="https://twitter.com/devVivekrao"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <img src={Twitter} alt="twiteer" className="twiteer" />
         </a>

@@ -16,6 +16,7 @@
     gap: 2rem;
 
     .project {
+      transition: 0.5s all ease;
       position: relative;
       border-radius: var(--card-radius);
       box-shadow: var(--card-shadow);
@@ -81,7 +82,8 @@
       }
       &:hover {
         .hover {
-          opacity: 0.8;
+          transition: 0.5s all ease;
+          opacity: 0.9;
           pointer-events: all;
         }
       }

@@ -5,12 +5,12 @@ function Project({ project }) {
   return (
     <div className="project">
       <div className="hover">
-        <a href="http://netlify.com" target="_blank" rel="noopener noreferrer">
+        <a href={project.live} target="_blank" rel="noopener noreferrer">
           <img src={Eye} alt="eye" />
           <br />
           view live
         </a>
-        <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+        <a href={project.code} target="_blank" rel="noopener noreferrer">
           <img src={Github} alt="github" className="github" /> <br />
           view code
         </a>

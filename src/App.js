@@ -23,6 +23,8 @@ function App() {
         description:
           "Croudfunding landing page built with html, css and tiny bit of javascript.",
         tags: ["html", "css"],
+        live: "http://vivekrao.netlify.app/",
+        code: "http://github.com/devVivekrao",
         featured: true,
       },
       {
@@ -32,6 +34,8 @@ function App() {
         description:
           "Bloger landing page built with html, css and tiny bit of javascript.",
         tags: ["html", "css"],
+        live: "http://vivekrao.netlify.app/",
+        code: "http://github.com/devVivekrao",
         featured: true,
       },
     ];
