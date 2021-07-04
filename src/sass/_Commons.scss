@@ -5,12 +5,12 @@
 }
 
 html {
-  font-size: var(--font-size);
+  font-size: $font-size;
 }
 
 body {
   margin: 0;
-  font-family: var(--font-family);
+  font-family: $font-family;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -20,19 +20,19 @@ body {
 // }
 
 .react {
-  background-color: var(--gray6);
-  color: #00d8ff;
+  background-color: $gray6;
+  color: $blue-light;
 }
 
 .javascript {
-  background-color: #f0db4f;
-  color: var(--gray6);
+  background-color: $yellow;
+  color: $gray6;
 }
 .html {
-  background-color: #09c372;
-  color: var(--gray6);
+  background-color: $green;
+  color: $gray6;
 }
 .css {
-  background-color: #f95fbe;
-  color: var(--gray6);
+  background-color: $pink-light;
+  color: $gray6;
 }

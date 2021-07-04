@@ -9,18 +9,18 @@
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='360' height='800' preserveAspectRatio='none' viewBox='0 0 360 800'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1100%26quot%3b)' fill='none'%3e%3crect width='360' height='800' x='0' y='0' fill='rgba(44%2c 36%2c 81%2c 1)'%3e%3c/rect%3e%3cpath d='M233.38108450461067 672.8799266844467L313.66694701689096 638.800599950317 279.5876202827612 558.5147374380366 199.3017577704809 592.5940641721664z' fill='rgba(255%2c 49%2c 82%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-49.21441100957202 49.15891715920439L13.281762059839544 126.3352635769431 90.45810847757826 63.839090507531544 27.961935408166696-13.337255910207169z' fill='rgba(255%2c 49%2c 82%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-2.4161393272662224 59.85718104653062L82.33749408679492-24.735062088883154-18.284064381141576-53.58782968742402z' fill='rgba(255%2c 49%2c 82%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M132.10699017629406 647.3474582136274L133.11893455977625 589.3732033114686 74.13273527413529 646.3355138301453z' fill='rgba(255%2c 49%2c 82%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M106.21 778.71 a89.77 89.77 0 1 0 179.54 0 a89.77 89.77 0 1 0 -179.54 0z' fill='rgba(255%2c 49%2c 82%2c 1)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1100'%3e%3crect width='360' height='800' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
   h3 {
     font-size: 2rem;
-    color: var(--gray2);
+    color: $gray2;
     margin-top: 9rem;
   }
   h1 {
     font-size: 3rem;
-    color: var(--red);
+    color: $red;
     margin-top: 0.3rem;
   }
   p {
     font-size: 1.2rem;
     margin-top: 0.3rem;
-    color: var(--gray2);
+    color: $gray2;
   }
   .btn-div {
     margin-top: 2rem;
@@ -32,36 +32,36 @@
 
     .button {
       font-size: 1rem;
-      border: 3px solid var(--red);
+      border: 3px solid $red;
       padding: 0.5rem;
-      background-color: var(--gray0);
-      font-family: var(--font-family);
+      background-color: $gray0;
+      font-family: $font-family;
       cursor: pointer;
       text-decoration: none;
       &:first-child {
         transition: 0.5s all ease;
         margin-right: 0.2rem;
-        background-color: var(--purple);
-        color: var(--gray0);
+        background-color: $purple;
+        color: $gray0;
         &:hover {
           transition: 0.5s all ease;
-          color: var(--purple);
-          background-color: var(--gray0);
+          color: $purple;
+          background-color: $gray0;
         }
       }
 
       &:last-child {
         transition: 0.5s all ease;
         margin-left: 0.2rem;
-        border: 3px solid var(--gray2);
-        background-color: var(--purple);
-        color: var(--gray0);
+        border: 3px solid $gray2;
+        background-color: $purple;
+        color: $gray0;
 
         &:hover {
           transition: 0.5s all ease;
-          border: 3px solid var(--gray2);
-          background-color: var(--gray0);
-          color: var(--purple);
+          border: 3px solid $gray2;
+          background-color: $gray0;
+          color: $purple;
         }
       }
     }

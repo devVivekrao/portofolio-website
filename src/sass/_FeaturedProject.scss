@@ -4,9 +4,9 @@
   h3 {
     text-align: center;
     font-size: 1.8rem;
-    border: 4px dashed var(--gray2);
+    border: 4px dashed $gray2;
     padding: 2.5rem 0rem;
-    color: var(--gray6);
+    color: $gray6;
     margin-bottom: 5rem;
   }
 
@@ -18,8 +18,8 @@
     .project {
       transition: 0.5s all ease;
       position: relative;
-      border-radius: var(--card-radius);
-      box-shadow: var(--card-shadow);
+      border-radius: $card-radius;
+      box-shadow: $card-shadow;
       overflow: hidden;
       height: 23rem;
       padding: 0.8rem;
@@ -31,7 +31,7 @@
       h4 {
         text-align: center;
         font-size: 1.2rem;
-        color: var(--gray6);
+        color: $gray6;
         font-weight: 600;
         margin: 0.6rem 0;
       }
@@ -57,7 +57,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        background-color: var(--purple);
+        background-color: $purple;
         // margin-left: -100px;
         height: 100%;
         width: 100%;
@@ -67,7 +67,7 @@
         text-align: center;
         a {
           padding: 0 2.5rem;
-          color: var(--gray0);
+          color: $gray0;
         }
         img {
           height: 2.5rem;
@@ -97,9 +97,9 @@
     height: 3rem;
     width: 100%;
     text-decoration: none;
-    border: 3px solid var(--purple);
-    background-color: var(--red);
+    border: 3px solid $purple;
+    background-color: $red;
     cursor: pointer;
-    color: var(--gray0);
+    color: $gray0;
   }
 }
