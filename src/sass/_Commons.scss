@@ -35,7 +35,7 @@ li {
     border-radius: $card-radius;
     box-shadow: $card-shadow;
     overflow: hidden;
-    height: 23rem;
+    height: min-content;
     padding: 0.8rem;
     // margin-bottom: 1.5rem;
     img {
