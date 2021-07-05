@@ -1,14 +1,8 @@
 .contact-me {
-  margin-top: 10rem;
-  padding: 1.5rem;
+  @include mt10;
 
   h3 {
-    text-align: center;
-    font-size: 1.8rem;
-    border: 4px dashed $gray2;
-    padding: 2.5rem 0rem;
-    color: $gray6;
-    margin-bottom: 5rem;
+    @include h3_dashed_border;
   }
   p {
     font-size: 1.2rem;
@@ -26,10 +20,18 @@
       display: flex;
       align-items: center;
       justify-content: center;
-
+      flex-direction: column;
       img {
         height: 5rem;
         width: 5rem;
+      }
+      span {
+        font-size: 1rem;
+        margin-top: 1rem;
+        color: $gray3;
+      }
+      &:hover {
+        transform: scale(1.1);
       }
     }
   }

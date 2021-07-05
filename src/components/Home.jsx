@@ -6,12 +6,12 @@ import Footer from "./Footer";
 
 function Home({ allProjects }) {
   return (
-    <section className="home">
+    <div className="home">
       <Header />
       <FeaturedProjects allProjects={allProjects} />
       <ContactMe />
       <Footer />
-    </section>
+    </div>
   );
 }
 

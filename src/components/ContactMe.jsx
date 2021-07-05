@@ -19,6 +19,7 @@ function ContactMe() {
           rel="noopener noreferrer"
         >
           <img src={Github} alt="github" className="github" />
+          <span>Github</span>
         </a>
         <a
           href="https://github.com/devVivekrao"
@@ -26,6 +27,7 @@ function ContactMe() {
           rel="noopener noreferrer"
         >
           <img src={LinkedIn} alt="linkedin" className="linkedin" />
+          <span>Linkedin</span>
         </a>
         <a
           href="https://www.instagram.com/_vivo_89/"
@@ -33,6 +35,7 @@ function ContactMe() {
           rel="noopener noreferrer"
         >
           <img src={Instagram} alt="instagram" className="instagram" />
+          <span>Instagram</span>
         </a>
         <a
           href="https://twitter.com/devVivekrao"
@@ -40,6 +43,7 @@ function ContactMe() {
           rel="noopener noreferrer"
         >
           <img src={Twitter} alt="twiteer" className="twiteer" />
+          <span>Twitter</span>
         </a>
       </div>
     </div>

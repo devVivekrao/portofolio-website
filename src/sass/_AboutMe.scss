@@ -1,12 +1,6 @@
 .about-me {
-  margin-top: 6rem;
-  padding: 1.5rem;
+  @include mt10;
   h3 {
-    text-align: center;
-    font-size: 1.8rem;
-    border: 4px dashed $gray2;
-    padding: 2.5rem 0rem;
-    color: $gray6;
-    margin-bottom: 5rem;
+    @include h3_dashed_border;
   }
 }

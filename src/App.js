@@ -8,8 +8,10 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
 
-import ProjectImage2 from "./assets/imgs/image2.webp";
-import ProjectImage3 from "./assets/imgs/image3.webp";
+import LoopstudioLandingPage from "./assets/imgs/loopstudio-landing-page.jpg";
+import ManageLandingPage from "./assets/imgs/manage-landing-page.jpg";
+import RoomHomepage from "./assets/imgs/room-homepage.jpg";
+import SunnysideLandingPage from "./assets/imgs/sunnyside-agency-landing-page.jpg";
 
 function App() {
   const [allProjects, setAllProjects] = useState([]);
@@ -18,22 +20,44 @@ function App() {
     const projects = [
       {
         id: uuidv4(),
-        image: ProjectImage2,
-        name: "Croudfunding project page",
+        image: LoopstudioLandingPage,
+        name: "Loopstudio landing page",
         description:
-          "Croudfunding landing page built with html, css and tiny bit of javascript.",
-        tags: ["html", "css"],
+          "Loopstudio landing page built with html, css and tiny bit of javascript.",
+        tags: ["html", "scss", "javascript"],
         live: "http://vivekrao.netlify.app/",
         code: "http://github.com/devVivekrao",
         featured: true,
       },
       {
         id: uuidv4(),
-        image: ProjectImage3,
-        name: "Blogr landing page",
+        image: ManageLandingPage,
+        name: "Manage landing page",
         description:
-          "Bloger landing page built with html, css and tiny bit of javascript.",
-        tags: ["html", "css"],
+          "Manage landing page built with html, css and tiny bit of javascript.",
+        tags: ["html", "scss", "javascript"],
+        live: "http://vivekrao.netlify.app/",
+        code: "http://github.com/devVivekrao",
+        featured: true,
+      },
+      {
+        id: uuidv4(),
+        image: RoomHomepage,
+        name: "Room home page",
+        description:
+          "Room home page built with html, css and tiny bit of javascript.",
+        tags: ["html", "scss", "javascript"],
+        live: "http://vivekrao.netlify.app/",
+        code: "http://github.com/devVivekrao",
+        featured: true,
+      },
+      {
+        id: uuidv4(),
+        image: SunnysideLandingPage,
+        name: "Sunnyside agency landing page",
+        description:
+          "Sunnyside agency landing page built with html, css and tiny bit of javascript.",
+        tags: ["html", "scss", "javascript"],
         live: "http://vivekrao.netlify.app/",
         code: "http://github.com/devVivekrao",
         featured: true,

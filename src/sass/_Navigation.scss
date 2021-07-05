@@ -31,6 +31,12 @@
     list-style: none;
     text-align: left;
     padding: 0.5rem;
+    &:hover {
+      transform: scale(1.1);
+      a {
+        color: $green-light;
+      }
+    }
   }
 
   a {
@@ -39,11 +45,6 @@
     color: $gray0;
     font-size: 2.1rem;
     font-weight: 700;
-
-    &:hover {
-      // letter-spacing: 0.1rem;
-      color: $green-light;
-    }
   }
 }
 
