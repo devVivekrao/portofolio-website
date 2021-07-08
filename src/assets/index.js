@@ -26,7 +26,7 @@ export const projects = [
     tags: ["html", "scss", "javascript"],
     live: "http://vivekrao.netlify.app/",
     code: "https://github.com/devVivekrao/manage-landing-page",
-    featured: true,
+    featured: false,
   },
   {
     id: uuidv4(),
@@ -37,7 +37,7 @@ export const projects = [
     tags: ["html", "scss", "javascript"],
     live: "http://vivekrao.netlify.app/",
     code: "https://github.com/devVivekrao/room-homepage",
-    featured: true,
+    featured: false,
   },
   {
     id: uuidv4(),
@@ -48,6 +48,6 @@ export const projects = [
     tags: ["html", "scss", "javascript"],
     live: "http://vivekrao.netlify.app/",
     code: "https://github.com/devVivekrao/sunnyside-agency-landing-page",
-    featured: true,
+    featured: false,
   },
 ];

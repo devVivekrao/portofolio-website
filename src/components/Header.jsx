@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Resume from "../assets/download/resume.pdf";
 
 function Header() {
   return (
@@ -11,7 +12,9 @@ function Header() {
         interactive experiences and functional interfaces using MERN stack.
       </p>
       <div className="btn-div">
-        <button className="button">Download resume</button>
+        <a className="button" href={Resume}>
+          Download resume
+        </a>
         <Link to="/projects" className="button">
           View projects
         </Link>
