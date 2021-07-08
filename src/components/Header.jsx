@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <div className="header">
-      <h3>Hi, my name is</h3>
+      <p className="top__p">Hi, my name is</p>
       <h1>Vivek rao.</h1>
       <p>
         I'm a full stack developer based in India. I specialise in creating

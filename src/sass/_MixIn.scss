@@ -5,8 +5,9 @@
 @mixin h3_dashed_border {
   text-align: center;
   font-size: 1.8rem;
-  border: 4px dashed $gray2;
+  border: 3px dashed $gray2;
   padding: 2.5rem 0rem;
   color: $gray6;
   margin-bottom: 5rem;
+  font-weight: 600;
 }

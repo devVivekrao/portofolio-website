@@ -22,7 +22,7 @@ function ContactMe() {
           <span>Github</span>
         </a>
         <a
-          href="https://github.com/devVivekrao"
+          href="https://www.linkedin.com/in/vivek-rao-9ab7651b6/"
           target="_blank"
           rel="noopener noreferrer"
         >

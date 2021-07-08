@@ -54,51 +54,44 @@ li {
       margin: 0.4rem 0;
       font-weight: 500;
     }
-
+    .action {
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // background-color: $purple;
+        border: 1px solid $gray6;
+        color: $gray6;
+        padding: 0.4rem 1.1rem;
+        border-radius: $card-radius;
+        height: 2rem;
+      }
+      img {
+        height: 1.5rem;
+        width: 1.5rem;
+        margin-right: 0.5rem;
+      }
+      .github {
+        height: 1.3rem;
+        width: 1.3rem;
+      }
+    }
     .tags {
+      border-top: 1px solid $gray1;
       display: flex;
       // align-items: left;
+      padding-top: 1rem;
       margin: 1rem 0;
 
       span {
         margin-left: 0.4rem;
         //   border: 1px solid red;
-        padding: 0 0.5rem;
+        padding: 0.2rem 0.5rem;
         border-radius: 0.3rem;
-      }
-    }
-    .hover {
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-color: $purple;
-      // margin-left: -100px;
-      height: 100%;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      a {
-        padding: 0 2.5rem;
-        color: $gray0;
-      }
-      img {
-        height: 2.5rem;
-        width: 2.5rem;
-      }
-      .github {
-        height: 2rem;
-        width: 2rem;
-      }
-      opacity: 0;
-      pointer-events: none;
-    }
-    &:hover {
-      .hover {
-        transition: 0.5s all ease;
-        opacity: 0.9;
-        pointer-events: all;
       }
     }
   }

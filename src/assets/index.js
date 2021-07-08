@@ -25,7 +25,7 @@ export const projects = [
       "Manage landing page built with html, css and tiny bit of javascript.",
     tags: ["html", "scss", "javascript"],
     live: "http://vivekrao.netlify.app/",
-    code: "http://github.com/devVivekrao",
+    code: "https://github.com/devVivekrao/manage-landing-page",
     featured: true,
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
       "Room home page built with html, css and tiny bit of javascript.",
     tags: ["html", "scss", "javascript"],
     live: "http://vivekrao.netlify.app/",
-    code: "http://github.com/devVivekrao",
+    code: "https://github.com/devVivekrao/room-homepage",
     featured: true,
   },
   {
@@ -47,7 +47,7 @@ export const projects = [
       "Sunnyside agency landing page built with html, css and tiny bit of javascript.",
     tags: ["html", "scss", "javascript"],
     live: "http://vivekrao.netlify.app/",
-    code: "http://github.com/devVivekrao",
+    code: "https://github.com/devVivekrao/sunnyside-agency-landing-page",
     featured: true,
   },
 ];

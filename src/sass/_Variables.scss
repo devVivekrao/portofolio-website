@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap");
+@font-face {
+  font-family: SofiaProReguler;
+  src: url("../assets/fonts/Sofia\ Pro\ Regular\ Az.otf");
+}
 
 $red: #ff3152;
 $red-light: #ff5c7c;
@@ -29,7 +32,7 @@ $gray5: #2a2e35;
 $gray6: #12181b;
 
 $nav-width: 4em;
-$font-family: "Poppins", sans-serif;
+$font-family: SofiaProReguler, sans-serif;
 $font-size: 16px;
 
 $max-width-bp: 768px;
