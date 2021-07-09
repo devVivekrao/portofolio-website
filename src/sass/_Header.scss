@@ -71,3 +71,37 @@
     }
   }
 }
+@media only screen and (min-width: 650px) {
+  .header {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='900' height='768' preserveAspectRatio='none' viewBox='0 0 900 768'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1161%26quot%3b)' fill='none'%3e%3crect width='900' height='768' x='0' y='0' fill='rgba(44%2c 36%2c 81%2c 1)'%3e%3c/rect%3e%3cpath d='M765.5790911962014 872.533376257098L800.8604054367315 672.4431002325603 565.4888151716636 837.2520620165678z' fill='rgba(255%2c 49%2c 82%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M727.3416499802404 679.6306434263253L635.1146096728277 646.0627459599577 630.8762836269827 801.1872551542606z' fill='rgba(255%2c 49%2c 82%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M287.54215209871717 527.1739517183365L180.73851038436777 586.3761770487189 239.94073571475016 693.1798187630684 346.7443774290996 633.9775934326859z' fill='rgba(255%2c 49%2c 82%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M345.32352175820694 632.3504550690526L446.3044346529612 697.9282266709224 511.88220625483103 596.9473137761681 410.9012933600767 531.3695421742983z' fill='rgba(255%2c 49%2c 82%2c 1)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1161'%3e%3crect width='900' height='768' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 10%;
+    .top__p {
+      font-size: 1.7rem;
+      margin-top: 11rem;
+    }
+    h1 {
+      margin-top: 1rem;
+      font-size: 4.5rem;
+    }
+    p {
+      font-size: 1.7rem;
+      // word-wrap: break-word;
+    }
+    .btn-div {
+      justify-content: flex-start;
+      .button:last-child {
+        margin-left: 1rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  .header {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1366' height='768' preserveAspectRatio='none' viewBox='0 0 1366 768'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1126%26quot%3b)' fill='none'%3e%3crect width='1366' height='768' x='0' y='0' fill='rgba(44%2c 36%2c 81%2c 1)'%3e%3c/rect%3e%3cpath d='M45.83980966668792 69.56648536180083L-47.763802419297214 177.2451235072888 59.914835726190766 270.84873559327394 153.5184478121759 163.17009744778596z' fill='rgba(255%2c 49%2c 82%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1098.88 599.78 a194.45 194.45 0 1 0 388.9 0 a194.45 194.45 0 1 0 -388.9 0z' fill='rgba(255%2c 49%2c 82%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M578.4040148887441 133.38948983417538L682.8076526724641 191.26137126228758 740.6795341005763 86.85773347856761 636.2758963168563 28.985852050455392z' fill='rgba(255%2c 49%2c 82%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1177.558738893959 758.5175340376916L1298.3634381542956 800.113927808179 1339.959831924783 679.3092285478424 1219.1551326644462 637.7128347773549z' fill='rgba(255%2c 49%2c 82%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-8.499211030094445 185.76431632388042L-28.773710400205022 267.0808918345044 103.33840255078627 256.8343531343583z' fill='rgba(255%2c 49%2c 82%2c 1)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1126'%3e%3crect width='1366' height='768' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    padding: 0 20%;
+  }
+}

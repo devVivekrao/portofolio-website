@@ -4,3 +4,21 @@
     @include h3_dashed_border;
   }
 }
+
+@media only screen and (min-width: 650px) {
+  .about-me {
+    padding: 0 4rem;
+    h3 {
+      @include h3_dashed_border_650;
+    }
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  .about-me {
+    padding: 0 4rem;
+    h3 {
+      @include h3_dashed_border_950;
+    }
+  }
+}

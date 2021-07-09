@@ -4,10 +4,19 @@
 }
 @mixin h3_dashed_border {
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 2rem;
   border: 3px dashed $gray2;
   padding: 2.5rem 0rem;
   color: $gray6;
   margin-bottom: 5rem;
   font-weight: 600;
+}
+
+@mixin h3_dashed_border_650 {
+  font-size: 2.5rem;
+}
+
+@mixin h3_dashed_border_950 {
+  margin: 5rem 10rem;
+  font-size: 3rem;
 }

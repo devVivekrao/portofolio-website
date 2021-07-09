@@ -58,18 +58,28 @@ li {
       margin-top: 1rem;
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: space-around;
       a {
         display: flex;
         align-items: center;
         justify-content: center;
         // background-color: $purple;
-        border: 1px solid $gray6;
+        // border: 1px solid $gray6;
+        box-shadow: $btn-shadow;
         color: $gray6;
         padding: 0.4rem 1.1rem;
         border-radius: $card-radius;
-        height: 2rem;
+        // height: 2rem;
+
+        &:first-child {
+          margin-right: 10px;
+        }
+
+        &:last-child {
+          margin-left: 10px;
+        }
       }
+
       img {
         height: 1.5rem;
         width: 1.5rem;

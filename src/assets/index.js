@@ -26,7 +26,7 @@ export const projects = [
     tags: ["html", "scss", "javascript"],
     live: "http://vivekrao.netlify.app/",
     code: "https://github.com/devVivekrao/manage-landing-page",
-    featured: false,
+    featured: true,
   },
   {
     id: uuidv4(),
@@ -37,7 +37,7 @@ export const projects = [
     tags: ["html", "scss", "javascript"],
     live: "http://vivekrao.netlify.app/",
     code: "https://github.com/devVivekrao/room-homepage",
-    featured: false,
+    featured: true,
   },
   {
     id: uuidv4(),
