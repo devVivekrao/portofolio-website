@@ -1,9 +1,10 @@
 import { v4 as uuidv4 } from "uuid";
 
-import LoopstudioLandingPage from "./imgs/loopstudio-landing-page.jpg";
-import ManageLandingPage from "./imgs/manage-landing-page.jpg";
-import RoomHomepage from "./imgs/room-homepage.jpg";
-import SunnysideLandingPage from "./imgs/sunnyside-agency-landing-page.jpg";
+import LoopstudioLandingPage from "./imgs/loopstudio-landing-page.webp";
+import ManageLandingPage from "./imgs/manage-landing-page.webp";
+import RoomHomepage from "./imgs/room-homepage.webp";
+import SunnysideLandingPage from "./imgs/sunnyside-agency-landing-page.webp";
+import SimpleSocialMedia from "./imgs/simple-social-media.webp";
 
 export const projects = [
   {
@@ -26,7 +27,7 @@ export const projects = [
     tags: ["html", "scss", "javascript"],
     live: "http://vivekrao.netlify.app/",
     code: "https://github.com/devVivekrao/manage-landing-page",
-    featured: true,
+    featured: false,
   },
   {
     id: uuidv4(),
@@ -35,7 +36,7 @@ export const projects = [
     description:
       "Room home page built with html, css and tiny bit of javascript.",
     tags: ["html", "scss", "javascript"],
-    live: "http://vivekrao.netlify.app/",
+    live: "https://vr-room-homepage.netlify.app/",
     code: "https://github.com/devVivekrao/room-homepage",
     featured: true,
   },
@@ -49,5 +50,16 @@ export const projects = [
     live: "http://vivekrao.netlify.app/",
     code: "https://github.com/devVivekrao/sunnyside-agency-landing-page",
     featured: false,
+  },
+  {
+    id: uuidv4(),
+    image: SimpleSocialMedia,
+    name: "Simple social media app with authentication",
+    description:
+      "Simple social media app built with reactjs, nodejs, expressjs and mongodb.",
+    tags: ["react", "scss", "javascript"],
+    live: "http://vivekrao.netlify.app/",
+    code: "https://github.com/devVivekrao/sunnyside-agency-landing-page",
+    featured: true,
   },
 ];

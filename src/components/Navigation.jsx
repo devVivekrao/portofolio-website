@@ -3,6 +3,7 @@ import { Link, withRouter } from "react-router-dom";
 
 import DotIcon from "../assets/icons/dot.svg";
 import Xmark from "../assets/icons/x-mark.svg";
+import Resume from "../assets/download/resume.pdf";
 
 function Navigation() {
   const [showSideMenu, setShowSideMenu] = useState(false);
@@ -36,10 +37,7 @@ function Navigation() {
             </Link>
           </li>
           <li>
-            <Link to="#" onClick={sideMenuHandler}>
-              {" "}
-              Resume{" "}
-            </Link>
+            <a href={Resume}>Resume</a>
           </li>
         </ul>
       </div>
